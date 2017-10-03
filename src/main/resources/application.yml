@@ -1,0 +1,14 @@
+server:
+  port: 8181
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/DayongLu/configuration.git
+          username: ludayong20@gmail.com
+          password: wh1tSmalllei
+          search-paths: development
+management:
+  security:
+    enabled: false
